@@ -89,7 +89,7 @@ function calcChange(amount) {
   changeValue -= coin10Amt * 0.1;
 
   // Determine the number of nickels
-  const coin5Amt = determineCoin(changeValue, 0.5);
+  const coin5Amt = determineCoin(changeValue, 0.05);
   document.getElementById('coin5').innerHTML = coin5Amt;
   changeValue -= coin5Amt * 0.05;
 
